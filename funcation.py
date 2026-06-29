@@ -70,5 +70,27 @@
         
 
 #_________________________________________________________________________________
+# WAP to check thr single number of even/odd and string. (using if-else loop)
+
+# def check_even_odd(n):
+#     if n %2 ==0 :
+#         print( n ,"this is a 'EVEN' value")
+#     else:
+#         print(n ,"this is 'ODD' value.")
+
+# check_even_odd(7)  
+
+#________________________________________________________________________
+
+# WAP to check thr single number of even/odd and string. (using for loop)
 
 
+def check_even_odd(n):
+    for i in range(n , n+1):
+        if(i % 2 == 0):
+            print(i ,"is EVEN")
+        else:    
+            print(i ,"is ODD")
+
+num = int (input("enter a number: "))
+check_even_odd(num)
