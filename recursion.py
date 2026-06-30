@@ -1,4 +1,4 @@
-#__recursive function:
+#Q__recursive function:
 
 # def show(n):
 #     if (n == 0) :     # ----base case-----------
@@ -12,7 +12,7 @@
 
 #_______________________________________________________________________
 
-#--- find factorial num.-----
+#Q--- find factorial num.-----
 
 # def fact(n):
 #     if (n == 1 or n ==0):
